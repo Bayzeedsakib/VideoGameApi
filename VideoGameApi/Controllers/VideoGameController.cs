@@ -42,8 +42,6 @@ namespace VideoGameApi.Controllers
             return Ok(videoGames);
         }
 
-        // dummy code
-
         [HttpGet("{id}")]
         public ActionResult<VideoGame> GetVideoGameById(int id)
         {
